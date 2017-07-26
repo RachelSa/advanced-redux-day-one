@@ -12,10 +12,17 @@
  - When presenting, be sure to explain the topic in broad terms, defining any terminology or concepts encountered, and in specific terms (how it is implemented). The presentations can be informal and interactive. You don't need to be an expert or have everything figured out!
  - The presentation to classmates can include examples from presenter's own project or show code examples from documentation or blogs.
  - As a presenter, discuss questions encountered during research, or problems with implementations, as well as the advantages (and possible disadvantages) of the approach. 
+ - If necessary, slack out links or an outline of the presentation to the group. 
  
  ## Topics
   - Thunk Middleware
   - Normalizing Data and Normalizer
   - Selectors
   - Higher Order Components
-
+  
+  # Day One To Do
+ - Review Redux Flow
+ - Choose topics
+ - Begin preparing topic presentations and reading advanced redux curriculum
+ 
+ 
