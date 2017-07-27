@@ -31,7 +31,7 @@
  # Combine Reducers
  ### what is it and why use it
  - Reducers dictate how an application's state will change.
- - **Combine reducers** gives us the ability to **combine reducers** °_o from separate files into one reducer. 
+ - **Combine reducers** gives us the ability to **combine reducers**... °_o ...from separate files into one reducer. 
  - It is a function that takes in reducers as an argument.
  - The combined reducers can then be passed to the store (which can only take ONE reducer).
  - Why use combine reducers:
