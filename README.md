@@ -44,8 +44,10 @@
 - call combine reducers, passing in key/value pairs with each reducer as a value. The key can be whatever name you pick, though ideally it should represent the piece of state it's altering. 
 - ES6 allows abbreviated syntax: ```combineReducers({ users, snacks }```
 - Or, even more abbreviated: 
-```import * as reducers from './reducers'
- const todoApp = combineReducers(reducers)```
+```
+import * as reducers from './reducers'
+const todoApp = combineReducers(reducers)
+```
   
   **https://learn.co/tracks/react-and-redux/redux-library/multiple-resources-with-redux/combine-reducers-codealong**
   **check the dispatch on new snack**
