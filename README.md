@@ -32,11 +32,12 @@
  ### what is it and why use it
  - Reducers dictate how an application's state will change.
  - **Combine reducers** gives us the ability to **combine reducers** °_o from separate files into one reducer. 
- - use Redux's combine reducers, so that we can keep reducers for different resources separate, and combine them when creating the store. 
+ - It is a function that takes in reducers as an argument.
+ - The combined reducers can then be passed to the store (which can only take ONE reducer).
  - Why use combine reducers:
     - keep logic for resources separate and organized
-    - prevent long switch statement
-    - ??
+    - multiple 
+    - use at lower level to keep functions single responsibility (<a href='http://randycoulman.com/blog/2016/11/22/taking-advantage-of-combinereducers/'>Taking Advantage of combineReducers</a>)
 - <a href="http://redux.js.org/docs/api/combineReducers.html#notes">Documentation Notes</a>  
 ### implementation
 - create multiple reducers
@@ -50,5 +51,5 @@ const todoApp = combineReducers(reducers)
 ```
   
   **https://learn.co/tracks/react-and-redux/redux-library/multiple-resources-with-redux/combine-reducers-codealong**
-  **check the dispatch on new snack**
+ 
  
