@@ -31,7 +31,7 @@
  # Combine Reducers
  ### what is it and why use it
  - Reducers dictate how an application's state will change.
- - Combine reducers gives us the ability to combine reducers ¯\(°_o)/¯ in separate files into one reducer. 
+ - **Combine reducers** gives us the ability to **combine reducers** °_o from separate files into one reducer. 
  - use Redux's combine reducers, so that we can keep reducers for different resources separate, and combine them when creating the store. 
  - Why use combine reducers:
     - keep logic for resources separate and organized
