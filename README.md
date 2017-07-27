@@ -47,7 +47,7 @@
 - Or, even more abbreviated: 
 ```
 import * as reducers from './reducers'
-const todoApp = combineReducers(reducers)
+const snackApp = combineReducers(reducers)
 ```
  
  
