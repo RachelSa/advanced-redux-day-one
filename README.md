@@ -34,9 +34,9 @@
  - Combine reducers gives us the ability to combine reducers in separate files into one reducer. 
  - use Redux's combine reducers, so that we can keep reducers for different resources separate, and combine them when creating the store. 
  - Why use combine reducers:
-  - keep logic for resources separate and organized
-  - prevent long switch statement
-  - ??
+    - keep logic for resources separate and organized
+    - prevent long switch statement
+    - ??
 - <a href="http://redux.js.org/docs/api/combineReducers.html#notes">Documentation Notes</a>  
 ### implementation
 - create multiple reducers
@@ -45,7 +45,7 @@
 - ES6 allows abbreviated syntax: ```combineReducers({ users, snacks }```
 - Or, even more abbreviated: 
 ```import * as reducers from './reducers'
- `const todoApp = combineReducers(reducers)```
+ const todoApp = combineReducers(reducers)```
   
   **https://learn.co/tracks/react-and-redux/redux-library/multiple-resources-with-redux/combine-reducers-codealong**
   **check the dispatch on new snack**
