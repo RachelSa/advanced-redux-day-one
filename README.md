@@ -36,7 +36,7 @@
  - The combined reducers can then be passed to the store (which can only take ONE reducer).
  - Why use combine reducers:
     - keep logic for resources separate and organized
-    - multiple 
+    - can fire off an action that applies to multiple resources
     - use at lower level to keep functions single responsibility (<a href='http://randycoulman.com/blog/2016/11/22/taking-advantage-of-combinereducers/'>Taking Advantage of combineReducers</a>)
 - <a href="http://redux.js.org/docs/api/combineReducers.html#notes">Documentation Notes</a>  
 ### implementation
@@ -49,7 +49,6 @@
 import * as reducers from './reducers'
 const todoApp = combineReducers(reducers)
 ```
-  
-  **https://learn.co/tracks/react-and-redux/redux-library/multiple-resources-with-redux/combine-reducers-codealong**
+ 
  
  
