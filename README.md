@@ -43,7 +43,7 @@
 - create multiple reducers
 - create and index file for the root reducer and import redux's combine reducer, as well as the other reducers.
 - call combine reducers, passing in key/value pairs with each reducer as a value. The key can be whatever name you pick, though ideally it should represent the piece of state it's altering. 
-- ES6 allows abbreviated syntax: ```combineReducers({ users, snacks }```
+- ES6 allows abbreviated syntax: ```combineReducers({ users, snacks })```
 - Or, even more abbreviated: 
 ```
 import * as reducers from './reducers'
