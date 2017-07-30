@@ -1,4 +1,4 @@
-# Advanced Redux Day One
+# Advanced Redux Part One
 
 ## Specialization - What to Expect
 
